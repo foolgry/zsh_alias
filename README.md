@@ -46,6 +46,12 @@ function load_aliases {
 load_aliases
 ```
 
+Reload your Zsh configuration file to automatically load the saved aliases:
+
+```zsh
+source ~/.zshrc
+```
+
 ### 2. Usage Examples
 
 #### Define and Save Aliases:
@@ -78,13 +84,6 @@ The output should include:
 alias b='git status'
 ```
 
-#### Restart Zsh or Reload Configuration:
-
-Reload your Zsh configuration file to automatically load the saved aliases:
-
-```zsh
-source ~/.zshrc
-```
 
 #### Verify Aliases are Loaded in a New Zsh Session:
 

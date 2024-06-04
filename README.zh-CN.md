@@ -46,6 +46,12 @@ function load_aliases {
 load_aliases
 ```
 
+重新加载 Zsh 配置文件，自动加载已保存的 alias：
+
+```zsh
+source ~/.zshrc
+```
+
 ### 2. 使用示例
 
 #### 定义 alias 并保存：
@@ -76,14 +82,6 @@ cat ~/.zsh_aliases
 
 ```sh
 alias b='git status'
-```
-
-#### 重新启动 Zsh 或重新加载配置：
-
-重新加载 Zsh 配置文件，自动加载已保存的 alias：
-
-```zsh
-source ~/.zshrc
 ```
 
 #### 在新的 Zsh 会话中验证 alias 已加载：
