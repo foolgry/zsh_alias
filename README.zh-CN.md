@@ -13,6 +13,7 @@
 
 ### 1. 安装与配置
 
+#### 手动安装
 将以下代码添加到你的 `~/.zshrc` 文件中：
 
 ```zsh
@@ -46,7 +47,21 @@ function load_aliases {
 load_aliases
 ```
 
-重新加载 Zsh 配置文件，自动加载已保存的 alias：
+#### 脚本安装
+使用 curl
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/foolgry/zsh_alias/main/install.sh)"
+```
+
+使用 wget
+```
+sh -c "$(wget -qO- https://raw.githubusercontent.com/foolgry/zsh_alias/main/install.sh)"
+
+```
+
+
+#### 重新加载 Zsh 配置文件
+自动加载已保存的 alias：
 
 ```zsh
 source ~/.zshrc

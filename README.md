@@ -13,6 +13,7 @@ English | [简体中文](https://github.com/foolgry/zsh_alias/blob/main/README.z
 
 ### 1. Installation and Configuration
 
+#### Manual Installation
 Add the following code to your `~/.zshrc` file:
 
 ```zsh
@@ -46,6 +47,19 @@ function load_aliases {
 load_aliases
 ```
 
+#### Script Installation
+use curl
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/foolgry/zsh_alias/main/install.sh)"
+```
+
+use wget
+```
+sh -c "$(wget -qO- https://raw.githubusercontent.com/foolgry/zsh_alias/main/install.sh)"
+
+```
+
+#### Reload your Zsh configuration
 Reload your Zsh configuration file to automatically load the saved aliases:
 
 ```zsh
